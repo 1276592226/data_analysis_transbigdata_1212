@@ -21,7 +21,7 @@ jupyter notebook
 ```
 - Now, the menu of **Nbextensions** can be seen. ![nbextensions](./data/Nbextensions.png)
 - Check the settings as below: ![settings_nbextensions](./data/Settings_in_Nbextension.jpg)
-- Enter Solution **bike_data_process_od.ipynb** and run it
+- Enter Solution **bike_data_process_baidu.ipynb** and run it
 ## Agenda
 ### 目标①：建立上海某共享单车的使用时间分布模型
 完成分析。
