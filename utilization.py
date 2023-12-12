@@ -1,11 +1,14 @@
 import transbigdata as tbd
 import json
 import requests
+import os
 
 file = open('./data/config.json','r')
 config = json.load(file)
 file.close()
-print(config)
+
+if not os.path.exists(config["mapPath"]):
+    os.makedirs(config["mapPath"])
 
 def initial_trans_big_data():
     tbd.set_mapboxtoken(config["MapboxToken"])
