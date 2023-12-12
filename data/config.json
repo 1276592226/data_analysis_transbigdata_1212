@@ -1,0 +1,5 @@
+{
+    "BaiduMapApiToken": "G7Rdqwoh66RRUxn8xWryWwvp0nHm1tKv",
+    "MapboxToken": "pk.eyJ1IjoieXVoYWktbHl1IiwiYSI6ImNsbmU0YTA5bTA5bmIycW1uenllaXliNzIifQ.i1JsfnDy0ZAhmE_JMYrgDg",
+    "mapPath": "./data/map_path/"
+}

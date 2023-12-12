@@ -1,0 +1,10 @@
+.vscode/*
+Lib/*
+Include/*
+Scripts/*
+share/*
+data/map_path/*
+pyvenv.cfg
+
+.ipynb_checkpoints/*
+__pycache__/*
