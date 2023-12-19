@@ -33,3 +33,16 @@ def get_routes(origin,destination,waypoints,departure_time):
         routes = data["result"]["routes"]
         return routes
     return data
+
+def get_poi(keywords, region='上海'):
+    BaiduMapApiToken = config["BaiduMapApiToken"]
+
+    # 百度地图API的开发者密钥
+    ak = BaiduMapApiToken
+    # 构造请求URL
+    url = f"https://api.map.baidu.com/place/v2/search?query={keywords}&&region={region}&output=json&ak={ak}"
+
+    # 发送请求
+    response = requests.get(url)
+    data = response.json()
+    return data['results']
